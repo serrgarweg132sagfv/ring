@@ -1,0 +1,26 @@
+<resources>
+    <color name="brand_primary">#8577F5</color>
+    <color name="brand_primary_dark">#6C5CE7</color>
+    <color name="brand_secondary">#00CEC9</color>
+    <color name="brand_accent">#FF9FC2</color>
+
+    <color name="surface_light">#121022</color>
+    <color name="surface_card">#1D1A35</color>
+    <color name="surface_card_alt">#262246</color>
+
+    <color name="text_primary">#F2F1FA</color>
+    <color name="text_secondary">#A6A3C6</color>
+    <color name="text_on_brand">#FFFFFF</color>
+
+    <color name="success_green">#22D3A8</color>
+    <color name="danger_red">#FF5C5D</color>
+    <color name="warning_amber">#FDCB6E</color>
+
+    <color name="ring_bg_start">#2A1B5E</color>
+    <color name="ring_bg_end">#0B0820</color>
+
+    <color name="star_filled">#FDCB6E</color>
+    <color name="star_outline">#5A5680</color>
+
+    <color name="divider_light">#2C2850</color>
+</resources>

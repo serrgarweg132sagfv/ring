@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_gradient_ring">
+
+    <!-- بخش بالا: آیکون و متن -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingStart="32dp"
+        android:paddingEnd="32dp">
+
+        <FrameLayout
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginBottom="32dp">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_circle_translucent" />
+
+            <ImageView
+                android:id="@+id/ivRingIcon"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_bell"
+                android:contentDescription="زنگ" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/tvTitleRing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="یک دستگاه دیگر شما را صدا می‌زند"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:id="@+id/tvSubtitleRing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="15sp"
+            android:textColor="#C9C4EE"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <!-- بخش پایین: دکمه‌ی قطع -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingBottom="56dp"
+        android:paddingTop="24dp">
+
+        <FrameLayout
+            android:id="@+id/btnStopRing"
+            android:layout_width="76dp"
+            android:layout_height="76dp"
+            android:background="@drawable/bg_circle_danger"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:layout_marginBottom="14dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_call_end"
+                android:contentDescription="قطع کردن" />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="قطع کردن"
+            android:textSize="14sp"
+            android:textColor="#C9C4EE" />
+
+    </LinearLayout>
+
+</LinearLayout>

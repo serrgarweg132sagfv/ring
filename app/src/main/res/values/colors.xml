@@ -1,0 +1,29 @@
+<resources>
+    <!-- پالت اصلی: بنفش-آبی مدرن -->
+    <color name="brand_primary">#6C5CE7</color>
+    <color name="brand_primary_dark">#4C3FC0</color>
+    <color name="brand_secondary">#00CEC9</color>
+    <color name="brand_accent">#FD79A8</color>
+
+    <color name="surface_light">#F7F7FC</color>
+    <color name="surface_card">#FFFFFF</color>
+    <color name="surface_card_alt">#F1EFFE</color>
+
+    <color name="text_primary">#1E1B33</color>
+    <color name="text_secondary">#6F6C8F</color>
+    <color name="text_on_brand">#FFFFFF</color>
+
+    <color name="success_green">#00B894</color>
+    <color name="danger_red">#E84142</color>
+    <color name="warning_amber">#FDCB6E</color>
+
+    <color name="ring_bg_start">#2A1B5E</color>
+    <color name="ring_bg_end">#120B33</color>
+
+    <color name="star_filled">#FDCB6E</color>
+    <color name="star_outline">#B8B4D6</color>
+
+    <color name="divider_light">#EAE8F7</color>
+
+    <color name="ic_launcher_background">#6C5CE7</color>
+</resources>
